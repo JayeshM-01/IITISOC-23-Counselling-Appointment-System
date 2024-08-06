@@ -1,0 +1,324 @@
+div.nav {
+  background-image: linear-gradient(to right, rgb(160, 196, 157),rgb(196, 215, 178));
+}
+
+.nav-none {
+  background-image: none;
+}
+
+.homenav {
+  background-image: linear-gradient(to right, rgb(160, 196, 157),rgb(196, 215, 178));
+  margin-bottom: 0px;
+}
+
+.darkline{
+  border-color: #494949;
+  border-width: 1px;
+  margin-top: 20px;
+}
+
+div.navi {
+  display: flex;
+  flex-direction: row;
+  padding: 0.5vh;
+  word-spacing: 1vw;
+  font-size: 0.8vh;
+  height: fit-content;
+  margin-bottom: 0;
+}
+
+#sanjeet{
+  border: 2px solid yellowgreen;
+  margin-left: 45vw;
+
+}
+
+.active ,.reglog {
+  background-color: transparent; 
+  border: white ;
+  color: rgb(0, 0, 0);
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  cursor: pointer;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.active:hover ,.reglog:hover{
+ 
+  opacity: 0.9;
+  color: rgb(247, 255, 229);
+}
+.active:active , .reglog:active{
+  color: #000000;
+  text-decoration: underline;
+}
+
+h1 {
+  margin: 1rem auto 4rem;
+}
+
+.product--image {
+  width: 100%;
+  height: 16em;
+  object-fit: cover;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 320px;
+  margin: auto 1rem;
+  text-align: center;
+  font-family: arial;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 320px;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+.description {
+  font-size: 22px;
+  height: 5vh;
+}
+.heading {
+  padding: 0;
+  margin: 20px;
+  text-align: center;
+  font-size: 5vh;
+}
+
+.Carousel{
+  margin-bottom: 30px;
+}
+
+.react-multiple-carousel__arrow {
+  max-width: 43px;
+  max-height: 43px;
+}
+
+.product--image {
+  width: 20.6vw;
+  height: 16em;
+  object-fit: cover;
+}
+
+@media only screen and (min-device-width: 1330px) {
+  .show {
+    display: none;
+  }
+  .after-login{
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-device-width: 1330px) {
+  .navLinks {
+    display: none;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  .show{
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    font-size: 3.5vh;
+  }
+  .ham {
+    margin: 0;
+    padding: 0;
+    width: 70px;
+    height: 50px;
+    background: none;
+    border: none;
+    color: rgb(0, 0, 0);
+    font-size: 45px;
+    cursor: pointer;
+  }
+  .extendedNavbar{
+    display: flexbox;
+    flex-direction: row;
+    background-color: #f9f9f9;
+    color: rgb(0, 0, 0);
+  }
+  .product--image {
+    width: 100%;
+    height: 16em;
+    object-fit: cover;
+  }
+  .react-multiple-carousel__arrow {
+    max-width: 43px;
+    max-height: 43px;
+  }
+  .description{
+    font-size: large;
+  }
+  .maintext{
+    color: bisque;
+  }
+
+}
+/* css for footer */
+
+/* .footerInfo {
+ 
+} */
+footer {
+  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+p {
+  margin-bottom: 10px;
+  font-size: large;
+}
+
+
+li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+.team {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.ri{
+  margin-left: 7px;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+
+}
+
+input {
+  width: 300px;
+  height: 50px;
+  font-size: 20px;
+  padding-left: 10px;
+  margin: 5px;
+
+}
+.contact-button {
+  width: 300px;
+  height: 50px;
+}
+
+ .reglog {
+  width: 200px;
+  height: 50px;
+  margin-top: 15px;
+} 
+
+ button:hover {
+  cursor: pointer;
+}
+
+.employees {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.employee {
+  width: 700px;
+  height: auto;
+  border: 1px solid black;
+  margin: 10px;
+  display: flex;
+  padding: 10px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.employee h3 {
+  margin: 20px;
+}
+
+.h2tag {
+  font-size: 30px;
+}
+
+#datepicker-toggle-382904 {
+  width: min-content;
+}
+.relative {
+  margin-bottom: 5px;
+}
+
+#inputcons{
+  border: 1.8px solid #e2e2e2;
+  border-radius: 4px;
+  height: 38px;
+  padding-left: 12px;
+  text-align: left;
+  /* width: 39vw; */
+  /* margin-left: -8px; */
+}
+
+.userpage {
+  padding: 3px 10px;
+  border: unset;
+  border-radius: 8px;
+  color: #212121;
+  z-index: 1;
+  background: #ffffff;
+  position: relative;
+  font-weight: 800;
+  font-size: 28px;
+  -webkit-box-shadow: 4px 8px 19px -3px rgba(22, 243, 37, 0.27);
+  box-shadow: 4px 8px 19px -3px rgba(7, 245, 39, 0.27);
+  transition: all 250ms;
+  overflow: hidden;;
+ }
+ 
+ .userpage::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  height: 100%;
+  width: 0;
+  border-radius: 8px;
+  background-color: rgb(255, 254, 229);
+  z-index: -1;
+  -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+  box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+  transition: all 250ms
+ }
+ 
+ .userpage:hover {
+  color: black;
+ }
+ 
+ .userpage:hover::before {
+  width: 100%;
+ }
+
