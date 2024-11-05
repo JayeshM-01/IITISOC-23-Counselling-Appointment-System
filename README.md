@@ -1,4 +1,4 @@
-# IITISoC-23-Web-04-Counselling_appointment
+# IITISoC-23-Web-04-Counselling appointment
 Counselling Appointment Website under IITISoC 2023.
 
 # Summary of Our Journey Learning Tech Stacks:
